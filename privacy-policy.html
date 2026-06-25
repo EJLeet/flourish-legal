@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flourish — Privacy Policy</title>
+<meta name="description" content="How the Flourish personal-finance app collects, protects, and lets you control your data.">
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1a1c19;
+    --muted: #44483f;
+    --accent: #1b5e20;
+    --card: #f3f6f0;
+    --border: #d7e0d2;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #11140f;
+      --fg: #e2e3dc;
+      --muted: #b9c0b2;
+      --accent: #7fd28a;
+      --card: #1b1f18;
+      --border: #2c3327;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 40px 20px 64px; }
+  header { border-bottom: 1px solid var(--border); padding-bottom: 16px; margin-bottom: 8px; }
+  h1 { font-size: 1.9rem; margin: 0 0 4px; letter-spacing: -0.01em; }
+  h2 { font-size: 1.2rem; margin: 32px 0 8px; color: var(--accent); }
+  p { margin: 0 0 14px; }
+  a { color: var(--accent); }
+  .meta { color: var(--muted); font-size: 0.92rem; margin: 0; }
+  .note {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 14px 16px;
+    margin: 24px 0;
+    font-size: 0.96rem;
+  }
+  footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Flourish — Privacy Policy</h1>
+    <p class="meta">Last updated: 25 June 2026</p>
+  </header>
+
+  <p>
+    Flourish is a personal-finance app published by <strong>Sherpa Property Group</strong>
+    (&ldquo;Flourish&rdquo;, &ldquo;we&rdquo;, &ldquo;us&rdquo;). This policy explains what we
+    collect, how we protect it, and the control you have over your data. It reflects how the
+    app actually works today.
+  </p>
+
+  <h2>What we collect</h2>
+  <p>
+    The financial details you enter (income, savings, debts, goals), your progress through the
+    wealth ladder, and &mdash; only if you choose to use the statement importer &mdash; bank
+    statement files you upload. We also collect your email address to create and secure your
+    account. Community activity (streaks, badges) is collected only if you turn sharing on.
+  </p>
+
+  <h2>How your money data is protected</h2>
+  <p>
+    Your financial records are private to your account. Every table enforces row-level security,
+    so no other user can read your data. Data is encrypted in transit and at rest by our backend
+    provider (Supabase). We never sell your data or share it for advertising, and we use no
+    cross-app or cross-site tracking.
+  </p>
+
+  <h2>The AI statement importer (opt-in)</h2>
+  <p>
+    If you choose to import a bank statement, the file is sent to our AI provider (Anthropic)
+    solely to categorise transactions into a proposed budget, which you confirm. We ask for your
+    consent the first time. Account numbers and similar identifiers are stripped from transaction
+    descriptions before anything is stored, and statement contents are never written to our logs.
+    Your statements are not used to train AI models.
+  </p>
+
+  <h2>Data retention</h2>
+  <p>
+    Uploaded statement files are purged automatically by a daily process after they have been
+    processed &mdash; we keep only the budget you confirm. The rest of your data is retained for
+    as long as your account exists, and is removed when you delete your account.
+  </p>
+
+  <h2>Community is anonymous by default</h2>
+  <p>
+    Flourish compares behaviour &mdash; streaks, habits, rungs climbed &mdash; never your dollar
+    amounts. You appear on leaderboards or the feed only after you turn on &ldquo;Share my
+    progress&rdquo; in Settings, and you can turn it off at any time. Pods are private groups you
+    join by invite.
+  </p>
+
+  <h2>Your controls</h2>
+  <p>
+    You can edit or reset your data in the app, turn community sharing on or off, and permanently
+    delete your account and all associated data from <strong>Settings &rarr; Account &rarr;
+    Delete account</strong>. Deleting your account removes every owner-scoped record and purges
+    any stored statement files. Turning sharing off removes you from leaderboards and the public
+    feed.
+  </p>
+
+  <div class="note">
+    <strong>Not financial advice.</strong> Flourish provides general guidance and educational
+    tools, not personal financial advice. Figures such as tax and grant rates are indicative
+    &mdash; verify them with the relevant authority or a licensed adviser.
+  </div>
+
+  <h2>Contact</h2>
+  <p>
+    Questions about your privacy or this policy can be directed to
+    <a href="mailto:SUPPORT_EMAIL_PLACEHOLDER">SUPPORT_EMAIL_PLACEHOLDER</a>.
+  </p>
+
+  <footer>
+    &copy; 2026 Sherpa Property Group. Flourish.
+  </footer>
+</main>
+</body>
+</html>
