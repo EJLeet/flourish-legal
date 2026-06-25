@@ -29,3 +29,11 @@ body {
 a { color: var(--accent); }
 .meta { color: var(--muted); font-size: 0.92rem; margin: 0; }
 footer { margin-top: 40px; padding-top: 16px; border-top: 1px solid var(--border); color: var(--muted); font-size: 0.9rem; }
+
+/* Document-page shell — shared by privacy-policy.html + support.html (body.doc).
+   index.html is a landing page and intentionally keeps its own main/h1/p inline. */
+.doc main { max-width: 720px; margin: 0 auto; padding: 40px 20px 64px; }
+.doc header { border-bottom: 1px solid var(--border); padding-bottom: 16px; margin-bottom: 8px; }
+.doc h1 { font-size: 1.9rem; margin: 0 0 4px; letter-spacing: -0.01em; }
+.doc h2 { font-size: 1.2rem; margin: 32px 0 8px; color: var(--accent); }
+.doc p { margin: 0 0 14px; }
